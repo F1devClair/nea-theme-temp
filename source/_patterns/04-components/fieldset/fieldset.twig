@@ -1,0 +1,13 @@
+<fieldset class="fieldset fieldset--default">
+  <legend class="fieldset__legend">
+    <span class="fieldset__legend-text">{{ legend }}</span>
+  </legend>
+  <div class="fieldset__content">
+    {{ content }}
+    {% if description %}
+      <div class="fieldset__description">
+        {{ description }}
+      </div>
+    {% endif %}
+  </div>
+</fieldset>
